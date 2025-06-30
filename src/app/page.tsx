@@ -4,7 +4,7 @@ import Cardatailed from "@/components/Hero-Card";
 
 export default function Home(){
     return(
-        <div className="home-page flex flex-col items-center p-[10px]">
+        <div className="home-page bg-white flex flex-col items-center p-[10px]">
             <div className="hero-section h-auto lg:h-screen flex flex-col lg:flex lg:flex-row items-center justify-between gap-5 p-[10px]">
                 <div className="hero-left-side flex justify-center 
                 max-w-[100%] lg:max-w-[50%] ">

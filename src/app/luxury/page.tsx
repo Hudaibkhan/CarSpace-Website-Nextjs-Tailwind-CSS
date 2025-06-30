@@ -4,8 +4,8 @@ import CarDetail from "@/components/Car-Card";
 
 export default function Luxury(){
     return(
-        <div className="luxury-cars-page text-center p-5">
-        <h1 className="text-[30px] font-bold">Luxury Cars</h1>
+        <div className="luxury-cars-page text-center p-5 bg-white">
+        <h1 className="text-[30px] font-bold text-black">Luxury Cars</h1>
         <CarDetail 
             image="/luxury-car/rolls.jpg"
             name="Rolls-Royce Phantom"

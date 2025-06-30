@@ -2,8 +2,8 @@ import "../globals.css";
 import CarDetail from "@/components/Car-Card";
 export default function Sport(){
     return(
-        <div className="sport-car-page text-center p-5">
-            <h1 className="text-[30px] font-bold">Sports Car</h1>
+        <div className="sport-car-page text-center p-5 bg-white">
+            <h1 className="text-[30px] font-bold text-black">Sports Car</h1>
             <CarDetail 
                 name="Ferrari 488 GTB"
                 engine="3.9L Twin-Turbo V8, 661 horsepower"

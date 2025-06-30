@@ -3,8 +3,8 @@ import CarDetail from "@/components/Car-Card";
 
 export default function Suv(){
     return(
-        <div className="suv-car-page text-center p-5">
-            <h1 className="text-[30px] font-bold">SUV & Truck Collection</h1>
+        <div className="suv-car-page text-center p-5 bg-white">
+            <h1 className="text-[30px] font-bold text-black">SUV & Truck Collection</h1>
             
             <CarDetail 
                 name="Mercedes-Benz AMG G 63"
